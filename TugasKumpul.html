@@ -3,63 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mobile Development - Tampilan Sesuai Contoh</title>
-  
-  <!-- Tailwind CDN -->
+  <title>Mobile Development</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  
   <style>
-    
     body {
       font-family: 'Inter', sans-serif;
     }
-
-    /* Background image untuk card hero, disesuaikan agar sama kek contoh */
     .hero-card-bg {
-      background-image: url('pict.jpg'); /* Gambar placeholder yang mirip */
+      background-image: url('pict.jpg');
       background-size: cover;
       background-position: center;
     }
   </style>
 </head>
-
 <body class="bg-white">
 
-  <!-- 1. JUDUL ATAS (Sesuai contoh foto) -->
   <header class="py-10 text-center">
-    <h1 class="text-3xl font-bold text-[#4F46E5]">Tailwind CSS</h1> <!-- Warna biru indigo kek di foto -->
+    <h1 class="text-3xl font-bold text-[#4F46E5]">Tailwind CSS</h1>
   </header>
 
-
-  <!-- 2. HERO SECTION (Card Melayang dengan Bayangan Besar sesuai contoh) -->
   <section class="max-w-5xl mx-auto px-6 mb-16">
-    <!-- Di sini kunci shadow gede dan border putih tebalnya -->
     <div class="hero-card-bg relative rounded-3xl overflow-hidden shadow-[0_25px_60px_-15px_rgba(79,70,229,0.5)] border-[12px] border-white h-[420px] flex items-center">
-      
-      <!-- Overlay tipis biar teks kebaca -->
       <div class="absolute inset-0 bg-white/5"></div>
-
-      <!-- Konten Kiri (Teks dan Tombol) -->
       <div class="relative z-10 p-14 max-w-lg">
         <h2 class="text-4xl font-extrabold text-[#3730A3] leading-tight mb-3">
           Mobile <br> Development
         </h2>
-        
         <p class="text-xs text-gray-700 mb-8 leading-relaxed max-w-sm">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolorum deleniti incidunt? Dolores nisi mollitia iure voluptate distinctio, doloremque asperiores ducimus.
         </p>
-        
         <button class="bg-[#111827] text-white text-xs font-semibold px-8 py-2.5 rounded-full hover:bg-black transition duration-200 shadow-md">
           Try It Free
         </button>
       </div>
-
-      <!-- Bagian Kanan (Gambar Ilustrasi dari background) -->
     </div>
   </section>
 
-
-  <!-- 3. GRADIENT TEXT SECTION (Sesuai contoh foto) -->
   <section class="bg-gradient-to-r from-[#BF36FF] via-[#4F46E5] to-[#4F46E5] py-12 px-6">
     <div class="max-w-6xl mx-auto text-center">
       <p class="text-[13px] md:text-[15px] text-white/90 leading-relaxed font-normal">
@@ -68,8 +47,6 @@
     </div>
   </section>
 
-
-  <!-- 4. BOTTOM TEXT SECTION (Sesuai contoh foto) -->
   <section class="max-w-5xl mx-auto py-16 px-6 text-center">
     <p class="text-[13px] text-gray-600 leading-loose font-normal">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero alias, quisquam facere quae, error qui voluptas esse eveniet dolorum omnis exercitationem impedit eligendi rerum eum reiciendis nemo ipsum! Nemo sint vero dolorem qui eligendi accusamus eos assumenda neque eum rerum perferendis consectetur, molestias veritatis sapiente deserunt quasi natus voluptatum aliquam!
